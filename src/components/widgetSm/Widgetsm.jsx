@@ -1,0 +1,71 @@
+import "./widgetsm.css"
+import {Visibility} from '@mui/icons-material';
+export default function Widgetsm() {
+  return (
+    <div className='widgetsm'>
+       <span className="widgetSmTitle">new join members</span>
+         <ul className="widgetList">
+            <li className="widgetListItem">
+                <img  src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                 alt="" className="widgetImg" />
+                 <div className="widgetSmUser">
+                    <span className="widgetSmName">Anna keller</span>
+                    <span className="widgetSmUserTitle">Software engineer</span>
+                 </div>
+                 <button className="widgetSmButton">
+                    <Visibility className="buttonVisible"/>
+                    Display
+                 </button>
+            </li>
+            <li className="widgetListItem">
+                <img  src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                 alt="" className="widgetImg" />
+                 <div className="widgetSmUser">
+                    <span className="widgetSmName">Anna keller</span>
+                    <span className="widgetSmUserTitle">Software engineer</span>
+                 </div>
+                 <button className="widgetSmButton">
+                    <Visibility className="buttonVisible"/>
+                    Display
+                 </button>
+            </li>
+            <li className="widgetListItem">
+                <img  src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                 alt="" className="widgetImg" />
+                 <div className="widgetSmUser">
+                    <span className="widgetSmName">Anna keller</span>
+                    <span className="widgetSmUserTitle">Software engineer</span>
+                 </div>
+                 <button className="widgetSmButton">
+                    <Visibility className="buttonVisible"/>
+                    Display
+                 </button>
+            </li>
+            <li className="widgetListItem">
+                <img  src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                 alt="" className="widgetImg" />
+                 <div className="widgetSmUser">
+                    <span className="widgetSmName">Anna keller</span>
+                    <span className="widgetSmUserTitle">Software engineer</span>
+                 </div>
+                 <button className="widgetSmButton">
+                    <Visibility className="buttonVisible"/>
+                    Display
+                 </button>
+            </li>
+            <li className="widgetListItem">
+                <img  src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                 alt="" className="widgetImg" />
+                 <div className="widgetSmUser">
+                    <span className="widgetSmName">Anna keller</span>
+                    <span className="widgetSmUserTitle">Software engineer</span>
+                 </div>
+                 <button className="widgetSmButton">
+                    <Visibility className="buttonVisible"/>
+                    Display
+                 </button>
+            </li>
+         </ul>
+    </div>
+  )
+}
